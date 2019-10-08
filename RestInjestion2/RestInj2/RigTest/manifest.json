@@ -1,0 +1,23 @@
+{
+    "name": "rigdbmanifest",
+    "db": "Azure SQL Server",
+    "GetDataFromRestEndPoint": "http://127.0.0.1:8000/rigs/",
+    "test-results": ".\\test-results.log",
+    "rawdata": [
+        {
+            "src": ".\\rawdata\\1.dat"
+        },
+        {
+            "src": ".\\rawdata\\2.dat"
+        },
+        {
+            "src": ".\\rawdata\\3.dat"
+        },
+        {
+            "src": ".\\rawdata\\4.dat"
+        },
+        {
+            "src": ".\\rawdata\\5.dat"
+        }
+    ]
+}

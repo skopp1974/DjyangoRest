@@ -1,0 +1,13 @@
+{
+    "id":"1",
+    "rig_name": "HoustonRig",
+    "rig_location": "Houston",
+    "well_bore_diameter": "100",
+    "well_name": "well1", 
+    "well_location": "Houston",
+    "well_diameter": "90",
+    "well_depth": "1000",
+    "raw_data": "c:\\Users\\srinik\\RestTest\\DJango\\RestInjestion2\\RestInj2\\RigTest\\RawData\\1.dat"
+}
+
+4   "$id": "http://example.com/root.json",
