@@ -5,18 +5,17 @@ import os
 
 schema_file_with_path = sys.path[0] + "\\rigschema.json"
 
-
 # For testing only
 #schema_file_with_path = sys.path[0] +"\\simpleschema.json"
 
 print("Schema File Path: " + schema_file_with_path)
-
 
 # read file
 with open(schema_file_with_path, "r") as schema:
     filebuf = schema.read()
 jsonschema = json.loads(filebuf)
 
+#Validate schema
 def validate_rig(db_record):
     retval = True
 
@@ -26,8 +25,8 @@ def validate_rig(db_record):
         retval = False
 
     if retval:
-        print('Data validation success for record ID [{0}]: SUCCESS'.format(db_record['id']))
+        print('JSON Schema validation for record ID [{0}]: SUCCESS'.format(db_record['id']))
     else:
-        print('Data validation success for record ID [{0}]: FAILED'.format(db_record['id']))
+        print('JSON Schema validation for record ID [{0}]: FAILED'.format(db_record['id']))
 
     return retval
