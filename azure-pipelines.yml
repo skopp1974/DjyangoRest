@@ -54,7 +54,7 @@ steps:
 
 - script: |
     pushd '$(projectRoot)'
-    python ~/work/1/s/RestInjestion2/RestInj2/RigTest/test_manifest.py # manage.py runserver
+    python .\RestInj2\RigTest\test_manifest.py # manage.py runserver
   displayName: 'Run tests'
 
 - task: PublishTestResults@2
