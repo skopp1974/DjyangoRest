@@ -46,6 +46,7 @@ steps:
     pip install unittest-xml-reporting
     pip install Django
     pip install --upgrade pyodbc
+    pip install requests
     pip install -U pytest
   displayName: 'Install prerequisites'
 
