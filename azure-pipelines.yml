@@ -51,7 +51,7 @@ steps:
 
 - script: |
     pushd '$(projectRoot)'
-    pytest# test_manifest.py # manage.py runserver
+    python test_manifest.py # manage.py runserver
   displayName: 'Run tests'
 
 - task: PublishTestResults@2
