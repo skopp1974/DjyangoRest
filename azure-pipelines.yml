@@ -50,6 +50,7 @@ steps:
     pip install requests
     pip install -U pytest
     pip install jsonschema
+    pip install pandas
   displayName: 'Install prerequisites'
 
 - script: |
