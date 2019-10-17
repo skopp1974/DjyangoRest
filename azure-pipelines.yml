@@ -46,11 +46,12 @@ steps:
     pip install unittest-xml-reporting
     pip install Django
     pip install --upgrade pyodbc
+    pip install -U pytest
   displayName: 'Install prerequisites'
 
 - script: |
     pushd '$(projectRoot)'
-    python manage.py runserver
+    python pytest # manage.py runserver
   displayName: 'Run tests'
 
 - task: PublishTestResults@2
