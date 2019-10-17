@@ -48,6 +48,7 @@ steps:
     pip install --upgrade pyodbc
     pip install requests
     pip install -U pytest
+    pip install jsonschema
   displayName: 'Install prerequisites'
 
 - script: |
